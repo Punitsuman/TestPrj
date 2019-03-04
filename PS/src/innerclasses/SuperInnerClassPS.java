@@ -1,6 +1,6 @@
 package innerclasses;
 
-import com.sun.jna.platform.unix.X11.Display;
+
 
 public class SuperInnerClassPS {
 	
@@ -72,11 +72,13 @@ public class SuperInnerClassPS {
 		int i = 1;
 	}
 
+	@SuppressWarnings("unused")
 	private class InnerClass7{
 		int i = 1;
 	}
 
 	
+	@SuppressWarnings("unused")
 	private class InnerClass8{
 		int i = 1;
 	}
