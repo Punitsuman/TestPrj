@@ -24,6 +24,11 @@ public class GrandFather {
 		System.out.println("GrandFather default constructor");
 	}
 
+	
+	//static method
+	public static void stadispaly() {
+		System.out.println("Static method of GrandFather class");
+	}
 	public int getGid() {
 		return gid;
 	}

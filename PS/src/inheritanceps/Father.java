@@ -16,5 +16,16 @@ public Father() {
 
 }
 
+//static method can be overridden
+	//@Override
+	public static void stadispaly() {
+		System.out.println("Static method of Father class");
+	}
+	
+	
+	public static void stadispaly(int i) {
+		System.out.println("Static parameterized method of Father class");
+	}
+	
 	
 }
